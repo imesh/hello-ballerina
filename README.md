@@ -7,6 +7,7 @@ This is a hello world service written in Ballerina for evaluating its features.
 git clone https://github.com/imesh/hello-ballerina.git
 cd hello-ballerina
 ballerina build service org/foo/bar -o hello-service.bsz
+ballerina run service hello-service.bsz
 ```
 
 ## License
